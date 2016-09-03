@@ -1,0 +1,9 @@
+print ("Welcome. Please input your binary for conversion to ASCII")
+
+binary = input("")
+
+bytes = binary.split()
+
+chrs = [chr(int(byte, 2)) for byte in bytes]
+
+print("".join(chrs))
