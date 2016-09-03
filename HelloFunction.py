@@ -1,2 +1,2 @@
 def hello()
-    Hellow World!
+    Hello!
