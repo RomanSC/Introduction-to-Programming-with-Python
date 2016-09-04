@@ -1,9 +1,16 @@
-print ("Welcome. Please input your binary for conversion to ASCII")
+response = input("Welcome to the binary to ASCII (text) or ASCII to binary converter. Please select \"Binary\" for binary > ASCII, or \"ASCII\" for ASCII > binary.")
+print("1. Binary > ASCII")
+print("2. ASCII > Binary ")
 
-binary = input("")
+response == 'Binary':
 
-bytes = binary.split()
+    binary = input("")
 
-chrs = [chr(int(byte, 2)) for byte in bytes]
+    bytes = binary.split()
 
-print("".join(chrs))
+    chrs = [chr(int(byte, 2)) for byte in bytes]
+
+    print("".join(chrs))
+
+for response == 'ASCII':
+
