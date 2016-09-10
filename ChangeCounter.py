@@ -18,5 +18,5 @@ def main():
     total = quarters * .25 + dimes * .10 + nickels * .05 + pennies * .01
 
     print()
-    print("Your total change is", total)
+    print("You have $%s" %(total))
 main()
