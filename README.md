@@ -1,2 +1,7 @@
 # Introduction-to-Programming-with-Python
-Introduction to Programming with Python at Marlboro College
+
+Welcome,
+
+These are simple python apps I've been making as part of Introduction to Programming with Python at Marlboro College
+
+
