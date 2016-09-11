@@ -1,4 +1,5 @@
 # This program converts Celsius to Fahrenheit
+print("Welcome to the Celsius to Fahrenheit converter.")
 
 def main():
     celsius = input ("What is the Celsius temperature? ")
