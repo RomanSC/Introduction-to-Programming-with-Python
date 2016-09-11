@@ -8,9 +8,7 @@ print()
 if response == 'MPH':
     mph = input()
     mph = float(mph)
-
     mph * 1.609344
-
     print(mph)
 
 if response == 'KPH':
