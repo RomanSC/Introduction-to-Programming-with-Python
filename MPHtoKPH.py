@@ -5,13 +5,13 @@ print()
 response = input()
 print()
 
-if response == 'MPH':
+if response == '1':
     mph = input()
     mph = float(mph)
     mph = mph * 1.609344
     print(mph)
 
-if response == 'KPH':
+if response == '2':
     kph = input()
     kph = float(kph)
     kph = kph / 1.609344

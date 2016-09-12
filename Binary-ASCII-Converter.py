@@ -3,7 +3,7 @@ print("1. Binary > ASCII")
 print("2. ASCII > Binary ")
 response = input()
 
-if response == 'Binary':
+if response == '1':
 
     binary = input()
 
@@ -13,7 +13,7 @@ if response == 'Binary':
 
     print("".join(chrs))
 
-if response == 'ASCII':
+if response == '2':
 	text = input()
 
 	bytes = [format(ord(chr), 'b') for chr in text]
