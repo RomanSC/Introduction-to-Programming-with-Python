@@ -1,6 +1,5 @@
-print("Welcome to the binary to ASCII (text) or ASCII to binary converter. Please type \"Binary\" for binary > ASCII, or \"ASCII\" for ASCII > binary.")
-print("1. Binary > ASCII")
-print("2. ASCII > Binary ")
+print("\nWelcome to the binary to ASCII (text) or ASCII to binary converter. Please type \"Binary\" for binary > ASCII, or \"ASCII\" for ASCII > binary.\n1. Binary > ASCII\n2. ASCII > Binary \n")
+
 response = input()
 
 if response == '1':

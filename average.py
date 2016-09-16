@@ -1,7 +1,5 @@
 def main():
-    print()
-    print("Welcome, this program gives you an average for your numbers. Please enter your numbers, then enter stop when you're finished: ")
-    print()
+    print("\nWelcome, this program gives you an average for your numbers. Please enter your numbers, then enter stop when you're finished: \n")
 
     numbers = []
 
@@ -13,8 +11,6 @@ def main():
 
         numbers.append(float(inputnumber))
 
-    print()
-
-    print("The average of", ', '.join(map(str, numbers)) ,"is",sum(numbers)/len(numbers))
+    print("\nThe average of", ', '.join(map(str, numbers)) ,"is",sum(numbers)/len(numbers))
 
 main()

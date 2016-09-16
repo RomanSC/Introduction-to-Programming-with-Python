@@ -1,22 +1,16 @@
 def main():
-    print("Change Counter!")
-    print()
-    print("Input how many of each coin you have:")
+    print("\nChange Counter!\n")
+    print("\nInput how many of each coin you have:\n")
 
-    quarters = input("Quarters:")
-    quarters = float(quarters)
+    quarters = float(input("Quarters:"))
 
-    dimes = input("Dimes:")
-    dimes = float(dimes)
+    dimes = float(input("Dimes:"))
 
-    nickels = input("Nickels:")
-    nickels = float(nickels)
+    nickels = float(input("Nickels:"))
 
-    pennies = input("Pennies:")
-    pennies = float(pennies)
+    pennies = float(input("Pennies:"))
 
     total = quarters * .25 + dimes * .10 + nickels * .05 + pennies * .01
 
-    print()
-    print("You have $%s" %(total))
+    print("\nYou have $%s\n" %(total))
 main()

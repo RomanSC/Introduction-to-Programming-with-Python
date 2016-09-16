@@ -1,18 +1,16 @@
+
 def main():
-    print("Welcome, this program calculates the value of an investment: ")
-    print()
+    print("\nWelcome, this program calculates the value of an investment: \n")
 
-    principal = input("Please enter the principal: ")
-    principal = float(principal)
+    principal = float(input("Please enter the principal: "))
 
-    apr = input("Enter the annual interest rate: ")
-    apr = float(apr)
+    apr = float(input("Enter the annual interest rate: "))
 
-    years = input("Enter the years: ")
-    years = int(years)
+    years = int(input("Enter the years: "))
 
     for i in range(years):
         principal = principal * (1 + apr)
 
-        print(principal)
+    print("\n", principal)
+
 main()
